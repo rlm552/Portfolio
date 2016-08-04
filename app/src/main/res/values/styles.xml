@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Button theme-->
     <style name="CustomButtonStyle" parent="Base.Widget.AppCompat.Button">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -16,5 +17,7 @@
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:width">@dimen/button_width</item>
         <item name="android:layout_marginTop">@dimen/margin_top_button</item>
+
+        <item name="android:onClick">showToast</item>
     </style>
 </resources>

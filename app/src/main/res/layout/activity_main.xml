@@ -30,8 +30,7 @@
             style="@style/CustomButtonStyle"
             android:text="@string/project_1"
             android:id="@+id/button"
-            android:layout_below="@+id/textView"
-            android:onClick="toastMessage1"/>
+            android:layout_below="@+id/textView"/>
 
         <Button
 
@@ -40,8 +39,7 @@
             android:id="@+id/button2"
             android:layout_below="@+id/button"
             android:layout_alignLeft="@+id/button"
-            android:layout_alignStart="@+id/button"
-            android:onClick="toastMessage2"/>
+            android:layout_alignStart="@+id/button"/>
 
         <Button
 
@@ -50,8 +48,7 @@
             android:id="@+id/button3"
             android:layout_below="@+id/button2"
             android:layout_alignLeft="@+id/button"
-            android:layout_alignStart="@+id/button"
-            android:onClick="toastMessage3"/>
+            android:layout_alignStart="@+id/button"/>
 
         <Button
 
@@ -60,8 +57,7 @@
             android:id="@+id/button4"
             android:layout_below="@+id/button3"
             android:layout_alignLeft="@+id/button3"
-            android:layout_alignStart="@+id/button3"
-            android:onClick="toastMessage4"/>
+            android:layout_alignStart="@+id/button3"/>
 
         <Button
 
@@ -70,8 +66,7 @@
             android:id="@+id/button5"
             android:layout_below="@+id/button4"
             android:layout_alignLeft="@+id/button2"
-            android:layout_alignStart="@+id/button2"
-            android:onClick="toastMessage5"/>
+            android:layout_alignStart="@+id/button2"/>
 
         <Button
 
@@ -80,7 +75,6 @@
             android:id="@+id/button6"
             android:layout_below="@+id/button5"
             android:layout_alignLeft="@+id/button4"
-            android:layout_alignStart="@+id/button4"
-            android:onClick="toastMessage6"/>
+            android:layout_alignStart="@+id/button4"/>
     </RelativeLayout>
 </ScrollView>
